@@ -318,12 +318,26 @@ section.sectionrow {
   
 .footer-container {
     height: 240px;
+    flex-direction: column;
 }
 
 footer.footer {
     height: 195vh;
 }
+
+.aboutus_text {
+    width: 90%;
 }
+
+section.background_aboutus {
+    flex-direction: column;
+    height: 90vh;
+}
+  
+}
+
+
+
 
 
 
