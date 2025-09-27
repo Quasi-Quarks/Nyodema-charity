@@ -1,0 +1,150 @@
+/* =======================
+   Mobile Stylesheet
+   ======================= */
+
+/* Global resets for mobile */
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-size: 16px;
+}
+
+/* Navigation */
+.menuBar {
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.menu_text a {
+  display: block;
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+/* Hero section */
+.watch-content h1 {
+  font-size: 1.8rem;
+  padding: 0 1rem;
+}
+
+.donate-btn {
+  padding: 0.8rem 1.6rem;
+  font-size: 1rem;
+}
+
+/* Info columns stack vertically */
+.sectionrow {
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.column {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+/* About Us */
+.background_aboutus {
+  flex-direction: column;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.aboutus_logo img {
+  max-width: 150px;
+  margin-top: 1.5rem;
+}
+
+/* Contact Us */
+.contactus_background {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.contactus_logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.contact_logo {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s;
+}
+
+.contact_logo:hover {
+  transform: scale(1.2);
+}
+
+/* =======================
+   Footer (Mobile)
+   ======================= */
+
+.footer {
+  flex-direction: column;
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 0.95rem;
+}
+
+.footer .footer_logo {
+  max-width: 120px;
+  margin: 0 auto 1.5rem;
+}
+
+/* Links & columns stack */
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.footer-links div {
+  text-align: center;
+}
+
+.footer-links h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.footer-links p {
+  margin: 0.3rem 0;
+}
+
+/* Contact & location */
+.contact-details p,
+.contact-address p {
+  margin: 0.3rem 0;
+}
+
+/* Socials inline */
+.footer-socials {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+  margin-top: 1.5rem;
+}
+
+.footer-socials img {
+  width: 35px;
+  height: 35px;
+  transition: transform 0.3s, filter 0.3s;
+}
+
+.footer-socials img:hover {
+  transform: translateY(-3px);
+  filter: brightness(1.2);
+}
+
+/* Copyright */
+.footer-bottom {
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  opacity: 0.7;
+}

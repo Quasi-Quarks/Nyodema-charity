@@ -20,10 +20,12 @@ width: 100%;
 
 .menu_text {
     flex-direction: row;
-    position: absolute;
+    /* position: absolute; */
     right: 0;
-    width: 58%;
+    width: 100%;
     justify-content: space-around;
+    align-items: center;
+    /* justify-content: center; */
     align-items: center;
 }
 
@@ -251,9 +253,10 @@ img.contact_logo {
     justify-content: space-around;
     height: 100%;
     width: 100%;
-    background-color: #2423236e;
-    backdrop-filter: blur(16px);
+    background-color: #242323d4;
+    backdrop-filter: blur(10px);
     /* border-radius: 52px; */
+    color: white;
 }
 
 .contactus_logos {
@@ -342,4 +345,9 @@ img.contact_footer_logo {
 img.footer_logo {
     height: 203px;
     width: 140px;
+}
+
+.menu_text a {
+    color: white;
+    font-size: 25px;
 }
